@@ -1,0 +1,28 @@
+{
+  "Users": [
+    {
+      "id": "aec7",
+      "name": "User1",
+      "email": "user@gmail.com",
+      "role": "trainee",
+      "department": "software",
+      "password": "123"
+    },
+    {
+      "id": "2024",
+      "name": "user2",
+      "email": "user@gmail.com",
+      "role": "developer",
+      "department": "Software",
+      "password": "u2"
+    },
+    {
+      "id": "83a4",
+      "name": "User4",
+      "email": "user4@gmail.com",
+      "role": "tester",
+      "department": "software",
+      "password": "e34"
+    }
+  ]
+}

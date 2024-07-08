@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    border: none;
+    display: flex;
+    margin-left: 10vw;
+}
+.home .admin{
+    background: silver;
+    width: 100%;
+    max-height: 10vh;
+    border: 1px solid rgb(245, 243, 243);
+    display: block;
+    position: absolute;
+}
+.home .admin .adminbtn{
+
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    margin-left: 83% ;
+    margin-top: 1.2%;
+    border-radius: 15px;
+}
+.home .admin .adminbtn button{
+    background: white;
+    margin: 0;
+    padding-left: 2.5vw;
+    width: 25%;
+    height: 5vh;
+    border: none;
+    border-radius: 50%;
+}
+.home .adminContainer{
+    margin-top: 10vh;
+    width: 100%;
+    height: auto;
+    border: none;
+    display: block;
+    background: silver;
+}
+.home .adminContainer .top{
+    width: 100%;
+    height: 10vh;
+    border:none;
+    display: flex;
+}
+.home .adminContainer .top .left{
+   width: 50%;
+   height: 10vh;
+}
+.home .adminContainer .top .left h2{
+    color: blue;
+    margin-top: 1.5vh;
+    margin-left: 1.5vw;
+    font-weight: bolder;
+}
+.home .adminContainer .top .right{
+   width: 50%;
+   height: 10vh;
+}
+.home .adminContainer .top .right button{
+    color: white;
+    width: 15%;
+    height: 4.5vh;
+    border: 1px solid rgb(20, 48, 185);
+    background: blue;
+    margin-right: 12vw;
+    box-shadow: 10px 8px 16px black;
+}
+.home .adminContainer .admintable{
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    margin-left: 5%;  
+    margin-top: 2%;
+    background: white;
+    border-radius: 13px;
+}
+.home .adminContainer .admintable .tabletop{
+    width: 100%;
+    height: 14%;
+    border: none;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+}
+.home .adminContainer .admintable .tabletop .left{
+    width: 50%;
+    height: 100%;
+}
+.home .adminContainer .admintable .tabletop h2{
+    font-size: 17px;
+    color: blue;
+    margin-top: 2vh;
+    margin-left: 5%;
+}
+.home .adminContainer .admintable .tabletop .right{
+    width: 50%;
+    height: 100%;
+}
+.home .adminContainer .admintable .tabletop .right .search{
+    width: 15vw;
+    height: 65%;
+    border: 1px solid black;
+    margin-left: 60%;
+    margin-top: 2vh;
+    position: relative;
+}
+.home .adminContainer .admintable .tabletop .right .search input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+}
+.home .adminContainer .admintable .tabletop .right .search button{
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    border: none;
+    background: none;
+    /* display: flex; */
+    position: absolute;
+}
+.home .adminContainer .admintable .tabletop .right .search i{
+    font-size: 16px;
+    color: blue;
+    margin-right: 3px;
+    margin-top: -0.4vh;
+}
+.home .adminContainer .admintable .act-table{
+    width: 100%;
+    height:auto;
+    margin-top: 2vh;
+    border: none;
+    border-radius: 0px 0px 15px 15px;
+}
+.home .adminContainer .admintable .act-table table{
+    width: 100%;
+    text-align: center;
+}
+.home .adminContainer .admintable .act-table table thead tr th{
+    border-bottom: 1px solid blue;
+}
+.home .adminContainer .admintable .act-table table tbody tr td{
+    border-bottom: 1px solid blue;
+    padding: 1vh;
+    color: green;
+}
+.home .adminContainer .admintable .act-table table tbody tr td button{
+    border: none;
+}

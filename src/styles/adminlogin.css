@@ -1,0 +1,35 @@
+.adminlogin .form{
+    max-width: 100%;
+    max-height: 100%;
+}
+.adminlogin .form input,button{
+    display: block;
+    margin: 3vh auto;
+}
+.adminlogin .form input::placeholder{
+    color: red;
+    text-align: center;
+}
+.adminlogin .form input{
+    width: 80%;
+    height: 4vh;
+}
+.adminlogin .form button{
+    width: 30%;
+    height: 8vh;
+    /* border: 2px solid blue; */
+    text-align: center;
+    background: rgba(129, 27, 197, 0.5);
+    border-radius: 15px;
+}
+.adminlogin .form button:active{
+    background: purple;
+    border: 2px solid purple;
+    color: white;
+}
+.adminlogin .form a{
+    font: 18px bold;
+    text-align: center;
+    margin-left: 35%;
+    text-decoration: none;
+}

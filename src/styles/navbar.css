@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 10%;
+    height: 100vh;
+    border: 1px solid black;
+    /* overflow-y: auto; */
+    transition: width 0.3s;
+}
+.navbar ul{
+  margin-top: 10vh;
+  list-style: none;
+  padding: 0;
+}
+.navbar li {
+    /* padding: 4vh 4vh; */
+    text-align: center;
+
+}
+.navbar a {
+    text-decoration: none;
+    display: block;
+    padding: 4vh 0;
+}
+.navbar a:hover{
+    box-shadow: 0px 0px 15px yellow;
+}
+.navbar button{
+    display: block;
+    place-items: center;
+    text-align: center;
+    padding-bottom: 0px;
+    width: 70%;
+    height: 9vh;
+    margin-top: 100%;
+    bottom: 0;
+    border-radius: 15px;
+}
+.navbar button a {
+   color: crimson;
+   font-size: 20px;
+}
+.navbar button:hover{
+    box-shadow: 5px 5px 1px grey;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+      max-width: 10%; /* Narrower width for small screens */
+    }
+    .navbar ul {
+      display: flex;
+      flex-direction: column;
+    }
+    .navbar li {
+        text-align: center;
+    }
+    button {
+        margin-bottom: 0; /* Remove bottom margin for logout button */
+        margin-top: 100%;
+    }
+}

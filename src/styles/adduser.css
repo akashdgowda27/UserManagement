@@ -1,0 +1,49 @@
+.adduser{
+    width: 50vw;
+    height: 70vh;
+    border: 1px solid black;
+    background-color: aliceblue;
+    margin-left: 30vw;
+    margin-top: 15vh;
+    border-radius: 13px;
+    /* margin: 3ovw auto; */
+}
+.adduser h2{
+    color: blue;
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+.adduser .form{
+    width: 100%;
+    height: auto;
+    margin-top: 5vh;
+
+    
+}
+.adduser .form .form-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.adduser .form .form-cont{
+   width: 24vw;
+   height: 10vh;
+   border:none;
+   margin:2vh auto;
+}
+.adduser .form .form-cont input,label{
+    display: block;
+}
+.adduser .form .form-cont input{
+    width: 90%;
+    height: 4vh;
+    margin-top: 1.5vh;
+}
+.adduser .form button{
+    width: 20%;
+    height: 4.5vh;
+    border-radius: 13px;
+    border: 1px solid black;
+    margin-right: 0;
+    background: green;
+    color: white;
+}
